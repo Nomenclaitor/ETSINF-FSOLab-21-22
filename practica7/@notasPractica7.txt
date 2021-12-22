@@ -8,6 +8,10 @@ Superblock:
 	
 	
 i-nodes:
+
+	Inode map & Zone map:
+		Red = occupied 		Green = Unused
+		
 	Mode		--->		Indicates the type of file / directory
 						0140-	--->	socket
 						0120-	--->	Symbolic link
@@ -29,3 +33,5 @@ i-nodes:
 Directory content:
 	Same as the inodes
 	Links		--->		Number of times the block has been referenced
+	
+	
