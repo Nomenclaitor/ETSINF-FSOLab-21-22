@@ -1,0 +1,78 @@
+
+Declaration:		int "File name"
+Initialization:		"File name" = open("file path", O_"permits"ONLY)
+			"File name" >= 0		----->		Success!
+			"File name" <  0		----->		Failed
+			
+			"permits":	W = Write	----->		O_WONLY
+					R = Read	----->		O_RONLY
+					R & W		----->		O_RDWR
+					
+			"Addt. flags":	O_APPEND	----->		Moves the pointer to the end of the file
+									every write operation will add to the file
+					
+					O_EXCL		----->		Ensures that if theres various processes /
+									threads that can create the same file 
+									(same file path), only one of them will
+									succed
+					
+								
+Write Operation:	write("File name", "String to write", strlen(length String))
+
+Read operation:		read("File name", "read String", strlen(length String))
+			
+Closing File:		"nombre variable".close()
+
+Permits declaration:	"permits name" = S_I"permits""permits target";		(permisos fichero)
+
+
+
+Pipping / redirect:
+	
+	#include<unistd.h>
+	
+	
+	int "tube name"[2]
+	
+	
+	pipe("tube name")
+		if pipe() >= 0 		----->		Pipe initialization successful
+		if pipe() <  0		----->		Pipe initialization failed
+		
+
+	dup2( "variable name", "type of I/O")		
+			Types of I/O:	STDOUT_FILENO	
+					STDIN_FILENO
+		
+					
+	"variable name"	 	= 	File
+				=	I/O
+	
+				
+	Its possible to rediret standard I/Os to a file or to another I/O, Ej:
+	
+	
+		I/O - I/O redirect:
+		
+			int fildes[2];
+			pipe(fildes);				------->	if pipe() < 0, pipe failed	
+			
+			dup2(fildes[1], STDOUT_FILENO);		------->	Sets the Standard Output to
+			close(fildes[0]);					fildes[1]
+			close(fildes[1]);					if dup2() < 0, redirect failed
+			
+			dup2(fildes[0], STDIN_FILENO);		------->	Sets the Standard Input to
+			close(fildes[0]);					fildes[0]
+			close(fildes[1]);					if dup2() < 0, redirect failed
+			
+			
+		Must close every fildes after redirect (fildes = "variable name") to complete the
+		redirect operation
+		
+			
+		I/O - File redirect:
+			mode_t fileMode = S_IRWXU
+			int fileName = open("file path", O_RDWR | O_CREAT, fileMode);
+			dup2(fileName, STDOUT_FILENO);		
+			
+			

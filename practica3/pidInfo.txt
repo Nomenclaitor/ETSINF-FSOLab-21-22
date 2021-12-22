@@ -1,0 +1,7 @@
+	S 	PID 	PPID 	CMD
+	S 	3010 	3007 	zsh
+	S 	4472 	3010 	mousepad
+	S 	5165 	3010 	system_process.
+	R 	5166 	5165 	ps
+	S 	5167 	5165 	awk
+	S	null	1	tes

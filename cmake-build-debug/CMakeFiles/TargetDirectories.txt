@@ -1,0 +1,3 @@
+/home/kali/cProjects/practicasC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kali/cProjects/practicasC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kali/cProjects/practicasC/cmake-build-debug/CMakeFiles/practicasC.dir

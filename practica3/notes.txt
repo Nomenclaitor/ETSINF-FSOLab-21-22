@@ -1,0 +1,25 @@
+	ps
+		Shows processes
+	
+	ps a
+		Shows processes, the process folder and status:
+		
+		R:	Running
+		S:	Sleeping
+		T:	Stopped
+		Z:	Zombie process
+		D:	Dont interrupt sleep (waiting I/O commands)
+		
+	ps -la:
+		Shows processees adn their details:
+		
+		UID: 	Process User ID
+		PID: 	Process ID
+		PPID:	Parent process ID
+		C/CPU:	Number of cores used by the process
+		CMD:	Source of the process
+		
+	more /proc/cpuinfo
+		Shows all infon about the CPU
+		
+	

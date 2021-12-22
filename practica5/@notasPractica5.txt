@@ -1,0 +1,29 @@
+
+Importing threads:		#include<pthread.h>
+Compiling threads:		compile flag: -lpthread
+
+Declaring threads: 		pthread_t "thread name"				(Must)
+Initiating attributes:		pthread_attr_init( &"attribute name")		(Must)
+Iniciación de hilos:		pthread_create( &"thread name", &"attribute name", method to "thread", initial
+						data for the method)		(Must)
+						
+Waiting threads (wait):		pthread_join("thread name", exit status)	(Recommended)
+
+	
+	SEMAPHORE:
+		Declaration:		sem_t "semaphore name"
+		Sem entry:		sem_wait( &"semaphore name" );
+					 - Critical section -
+		Sem exit:		sem_post( &"semaphore name" );
+		
+	MUTEX:
+		Initialization:		pthread_mutex_t "mutex name";
+		Mutex entry:		pthread_mutex_lock( &"mutex name" );
+					 - Critical section -
+		Mutex exit:		pthread_mutex_unlock( &"mutex name");
+		
+	TEST AND SET:
+		Initialization:		int key = 0;
+		TAS entry:		while(test_and_set(&key));
+					 - Critical section -
+		TAS exit:		key = 0;

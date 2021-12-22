@@ -1,0 +1,31 @@
+
+Superblock:
+	Number of i-nodes
+	i-node map blocks
+	
+	Number of zones		--->		Bit map number
+	Zone blocks		--->		Number of bit map blocks
+	
+	
+i-nodes:
+	Mode		--->		Indicates the type of file / directory
+						0140-	--->	socket
+						0120-	--->	Symbolic link
+						0100-	--->	Regular file
+						0040-	--->	Directory
+						
+	UID		--->		UID of the owner
+	GID		--->		GID of the owner
+	Links		--->		Number of links to the file
+	
+	DP		--->		Direct pointer 
+						0 if not used
+						otherise block has data
+	
+	SI		--->		Indirect pointers
+	DI		--->		Double indirect pointers
+	
+
+Directory content:
+	Same as the inodes
+	Links		--->		Number of times the block has been referenced

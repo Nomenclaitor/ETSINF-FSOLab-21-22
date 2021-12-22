@@ -1,0 +1,18 @@
+
+Local variables stored in Stack
+Global variables stored in blocks adjacend to:	rw-p / r--p
+
+Non-static variables stored in the Heap
+
+VVAR	---->	 Stores all the basic functions a program may need such as cpuinfo or gettimeofday	
+
+Permissions:
+	r	-->	Read
+	w	-->	Write
+	x	-->	Execute
+	
+	p	-->	
+	
+	First triplet	---->	User permissions
+	Secnd triplet	---->	User group permissions
+	Thrd  triplet	---->	Others permissions

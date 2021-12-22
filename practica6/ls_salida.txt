@@ -1,0 +1,21 @@
+total 176
+drwxr-xr-x  2 kali kali  4096 Nov 22 16:36 .
+drwx------ 10 kali kali  4096 Nov 22 15:05 ..
+-rw-r--r--  1 kali kali  1559 Nov 22 16:27 a_pipe.c
+-rwxr-xr-x  1 kali kali 16392 Nov 22 16:30 catRedir
+-rw-r--r--  1 kali kali   718 Nov 22 16:30 catRedir.c
+-rw-r--r--  1 kali kali   380 Nov 22 16:36 catRedirPipe.c
+-rwxr-xr-x  1 kali kali 16240 Nov 22 15:14 descriptor
+-rw-r--r--  1 kali kali   569 Nov 22 15:14 descriptor.c
+-rwxr-xr-x  1 kali kali 16152 Nov 22 15:17 fileDescriptor
+-rw-r--r--  1 kali kali   729 Nov 22 15:16 fileDescriptor.c
+-rwxr-xr-x  1 kali kali 16240 Nov 22 15:42 lsRedir
+-rw-r--r--  1 kali kali   436 Nov 22 15:44 lsRedir.c
+-rwx------  1 kali kali  1026 Nov 22 16:30 ls_salida.txt
+-rwx------  1 kali kali    47 Nov 22 15:22 messages.txt
+-rwx------  1 kali kali    23 Nov 22 15:36 output.txt
+-rwxr-xr-x  1 kali kali 16432 Nov 22 16:27 pipe
+-rwxr-xr-x  1 kali kali 16432 Nov 22 15:36 redirOutput
+-rw-r--r--  1 kali kali   502 Nov 22 15:36 redirOutput.c
+-rwxr-xr-x  1 kali kali 16344 Nov 22 15:22 shareFile
+-rw-r--r--  1 kali kali   665 Nov 22 15:21 shareFile.c

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="practicasC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kali/cProjects/practicasC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kali/cProjects/practicasC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kali/cProjects/practicasC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practicasC">
+				<Option output="/home/kali/cProjects/practicasC/cmake-build-debug/practicasC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kali/cProjects/practicasC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 practicasC"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practicasC/fast">
+				<Option output="/home/kali/cProjects/practicasC/cmake-build-debug/practicasC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kali/cProjects/practicasC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 practicasC/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/kali/cProjects/practicasC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kali/cProjects/practicasC/practica1/atm.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica1/atm2.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica1/atm3.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica1/atmTest.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica1/prac1Test.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/argumentos.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/circulo.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/circulo2.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/mayusculas.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/options.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/sumafilas.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/sumafilas2.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica2/variablesVarias.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/adopted_process.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/execTest.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/final_state.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/my_child.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/parent_wait.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/practica4/range_process.c">
+			<Option target="practicasC"/>
+		</Unit>
+		<Unit filename="/home/kali/cProjects/practicasC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

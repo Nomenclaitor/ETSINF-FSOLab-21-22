@@ -1,0 +1,101 @@
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./tasCondCarr 
+-------> Fin RESTA  (V = -19970234)
+-------> Fin AGREGA (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    0.99s
+user    1.83s
+sys     0.00s
+cpu     185%
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./tasCondCarr 
+-------> Fin RESTA  (V = -1633095)
+-------> Fin AGREGA (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    1.70s
+user    3.38s
+sys     0.00s
+cpu     199%
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./tasCondCarr 
+-------> Fin AGREGA (V = 19941877)
+-------> Fin RESTA  (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    1.04s
+user    1.93s
+sys     0.00s
+cpu     186%
+                                  
+----------------------------------------------------------------------------------------------------------------                                 
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./semCondCarr 
+-------> Fin RESTA  (V = -5862230)
+-------> Fin AGREGA (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    5.26s
+user    6.71s
+sys     3.72s
+cpu     198%
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./semCondCarr
+-------> Fin AGREGA (V = 1452047)
+-------> Fin RESTA  (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    4.60s
+user    6.22s
+sys     2.95s
+cpu     199%
+
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./semCondCarr
+-------> Fin RESTA  (V = -3278438)
+-------> Fin AGREGA (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    4.41s
+user    5.92s
+sys     2.84s
+cpu     198%
+                       
+----------------------------------------------------------------------------------------------------------------                                                                                                          
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./mutexCondCarr 
+-------> Fin AGREGA (V = 309610)
+-------> Fin RESTA  (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    1.84s
+user    2.51s
+sys     1.16s
+cpu     199%
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./mutexCondCarr
+-------> Fin AGREGA (V = 1075247)
+-------> Fin RESTA  (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    1.89s
+user    2.72s
+sys     1.04s
+cpu     198%
+                                                                                                                       
+C:\home\kali\Documents\cProjects\practicasC\practica5> time ./mutexCondCarr
+-------> Fin AGREGA (V = 7399417)
+-------> Fin RESTA  (V = 100)
+-------> VALOR FINAL: V = 100
+
+
+real    1.66s
+user    2.17s
+sys     1.04s
+cpu     193%

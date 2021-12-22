@@ -1,0 +1,4 @@
+/home/kali/programs/clion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/kali/cProjects/practicasC
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kali/cProjects/practicasC/cmake-build-debug
